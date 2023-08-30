@@ -18,6 +18,7 @@ button{
     border-radius: 20px;
     border: none;
     margin: 2px 2px;
+    font-size: 20px;
 }
 
 input{
@@ -26,4 +27,15 @@ input{
     border: none;
     border-radius: 15px;
     margin: 9px 2px;
+    font-size: 25px;
+    padding: 20px;
+    text-align: right;
+}
+
+.zero{
+    width: 89px;
+}
+.op{
+    background-color: orange;
+    
 }
