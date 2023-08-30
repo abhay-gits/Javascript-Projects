@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.inputText{
+    width: 400px;
+    height: 50px;
+    border-radius: 30px;
+    border : solid 2px ;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 5px;
+
+}
+
+.btn{
+    width: 90px;
+    height:40px ;
+    border: solid 2px;
+    border-radius: 20px;
+}
+
+.area{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tasks{
+    font-size : 40px;
+}
+
+.tasks button{
+    color: red;
+    padding: 10px;
+    border-radius: 14px;
+    margin-left: 20px;
+}
