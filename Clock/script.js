@@ -8,6 +8,16 @@ function clock(){
     let hr = ct.getHours();
     let min =ct.getMinutes();
     let sec = ct.getSeconds();
+
+    if(sec<10){
+        sec = `0${sec}`
+    };
+    if(hr<10){
+        hr = `0${hr}`
+    };
+    if(min<10){
+        min = `0${min}`
+    };
    
     time.innerHTML = `${hr} : ${min} : ${sec}`;
 
