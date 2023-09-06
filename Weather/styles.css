@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgba(4, 112, 213, 0.668);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    margin-top: 45px;
+    border: solid 2px black;
+    border-radius: 30px;
+    padding: 7px;
+    outline: none;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+#cityName{
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+.screen{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    color: white;
+}
+
+#temp{
+    margin-bottom: 20px;
+}
+
+

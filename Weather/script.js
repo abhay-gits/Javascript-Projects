@@ -12,7 +12,7 @@ btn.addEventListener('click',()=>{
         const weather = document.getElementById('weather');
 
         cityName.textContent = data.name;
-        temp.textContent = data.main.temp;
-        weather.textContent = data.weather[0].description;
+        temp.textContent = "Temperature : "+data.main.temp;
+        weather.textContent = "Weather : "+data.weather[0].description;
     })
 })

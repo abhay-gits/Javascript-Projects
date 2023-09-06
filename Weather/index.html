@@ -7,16 +7,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Weather ForeCast</h1>
     <div class="container">
         <div class="input">
             <input type="text" id="city" placeholder="Enter City..." required>
             <button id="btn">Find</button>
         </div>
+        <div>
+            <h1 id="cityName"></h1>
+        </div>
         <div class="screen">
-            <p>City :<span id="cityName"></span></p>
-            <p>Temp :<span id="temp"></span></p>
-            <p>Weather :<span id="weather"></span></p>
+            <span id="temp"></span>
+            <span id="weather"></span>
         </div>
     </div>
 <script src="script.js"></script>    
