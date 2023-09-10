@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    border: none;
 }
 
 body{
@@ -10,22 +12,35 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 
-input{
-    width: 250px;
-    height: 30px;
-    margin-top: 45px;
-    border: solid 2px black;
-    border-radius: 30px;
-    padding: 7px;
-    outline: none;
+.input{
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    height: min-content;
+    width: 100%;
+}
+input{  
+    background-color: #e6f5fb;
+    padding: 8px;
+    border-radius: 50%;
+    border-radius: 8px;
 }
 
 button{
     width: 80px;
     height: 30px;
-    border-radius: 30px;
+    background-color: #e6f5fb;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: deeppink;
 }
 
 #cityName{
