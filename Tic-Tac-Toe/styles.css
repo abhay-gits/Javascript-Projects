@@ -29,3 +29,34 @@
     border-radius: 10px;
     font-weight: bold;
 }
+
+.hidden{
+    
+    display: none;
+    
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#p1,#p2{
+    height: 40px;
+    border: solid 2px black;
+    padding: 5px;
+    margin: 20px;
+    font-size: larger;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#enterBtn{
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+}
+

@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="game">
-        <div class = "name">
-            <input type="text" placeholder="Player 1" id="p1">
-            <input type="text" placeholder="Player 2" id="p2">
-            <button id="enterBtn">Start</button>
-        </div>
+    <div class = "name" id="name">
+        <h1 class="heading">Tic-Tac-Toe</h1>
+        <input type="text" placeholder="Player 1 (X)" id="p1">
+        <input type="text" placeholder="Player 2 (O)" id="p2">
+        <button id="enterBtn">Start</button>
+    </div>
+    <div class ="hidden" id="hidden">
+     <div class="game">
         <div class="row">
             <div class="cell"></div>
             <div class="cell"></div>
@@ -30,6 +32,7 @@
         </div>
         <button id="btn">Clear</button>
         <span id="record"></span>
+     </div>
     </div>
 <script src="script.js"></script>    
 </body>

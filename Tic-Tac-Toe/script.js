@@ -7,8 +7,12 @@ let p1 = "X";
 let p2 = "O";
 
 enterBtn.addEventListener('click',()=>{
+
+    document.getElementById('hidden').style.display = 'block';
+    document.getElementById('name').style.display = 'none';
     p1 = document.getElementById('p1').value;
     p2 = document.getElementById('p2').value;
+
 })
 
 //Applyind EventListener on Cells
@@ -47,14 +51,16 @@ for(const combo of possibleCases){
 
     if(cells[a].textContent && cells[a].textContent === cells[b].textContent && cells[a].textContent === cells[c].textContent){
 
-            alert(`player ${player} is Winner`);
+            
             gameOver = true;
             
             if(player === "O"){
                 record.innerHTML = "Winner is " + p2;
+                alert(p2 + " is winner");
             }
             if(player === "X"){
                 record.innerHTML ="Winner is " + p1;
+                alert(p1 + " is winner");
             }
         
     }
