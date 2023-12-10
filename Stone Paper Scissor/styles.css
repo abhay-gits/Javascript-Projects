@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+}
+
+/* First Page */
+.first-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.first-page button{
+    cursor: pointer;
+    margin-top: 40px;
+    width: 10rem;
+    height: 3rem;
+    font-size: 25px;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Second Page */
+
+.second-page{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    visibility: hidden;
+}
+
+.second-page h1{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 700px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result{
+    margin-top: 10px;
+}
+
+.second-page button{
+    width: 200px;
+    height: 50px;
+    margin: 70px 20px;
+}
