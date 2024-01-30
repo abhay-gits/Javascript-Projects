@@ -1,4 +1,4 @@
-const apiKey = '3be7f6a2913ffc2b156312ac6b407';
+const apiKey = 'api_here';
 const btn = document.getElementById('btn');
 
 
