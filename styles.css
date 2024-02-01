@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#joke-area{
+    background-color: white;
+    width: 70vw;
+    min-height: 40vh;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+#next-btn{
+    width: 80px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#next-btn:hover{
+    background-color: rgb(224, 216, 216);
+}
