@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    border: none;
+}
+
+body{
+    background-color: rgba(4, 112, 213, 0.668);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.input{
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    height: min-content;
+    width: 100%;
+}
+input{  
+    background-color: #e6f5fb;
+    padding: 8px;
+    border-radius: 50%;
+    border-radius: 8px;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    background-color: #e6f5fb;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: deeppink;
+}
+
+#cityName{
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+.screen{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    color: white;
+}
+
+#temp{
+    margin-bottom: 20px;
+}
+
+

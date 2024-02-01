@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+button{
+    width: 40px;
+    height: 39px;
+    border-radius: 20px;
+    border: none;
+    margin: 2px 2px;
+    font-size: 20px;
+}
+
+input{
+    height: 30px;
+    width: 180px;
+    border: none;
+    border-radius: 15px;
+    margin: 9px 2px;
+    font-size: 25px;
+    padding: 20px;
+    text-align: right;
+}
+
+.zero{
+    width: 89px;
+}
+.op{
+    background-color: orange;
+    
+}
