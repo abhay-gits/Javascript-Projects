@@ -1,7 +1,7 @@
 let jokeArea = document.getElementById('joke-area')
 let hindiBtn = document.getElementById('hindi-btn')
 let englishBtn = document.getElementById('english-btn')
-const apiKey = '661c5fa375b1339f89c1f185442f';
+const apiKey = 'api_key_here';
 
 /*function for English Joke */
 function englishJoke(){
